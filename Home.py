@@ -24,7 +24,7 @@ with col2:
     st.image(logo_home, width=100)
 
 # Login Form
-email = st.text_input("📧 Email Address")
+email = st.text_input("📧 Email Address").lower() if st.text_input("📧 Email Address") else ""
 user_password = st.text_input("🔑 Password", type="password")
 
 
