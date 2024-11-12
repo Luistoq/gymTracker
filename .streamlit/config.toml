@@ -1,0 +1,8 @@
+[theme]
+
+base = "dark"  # Use dark mode by default
+primaryColor = "#FF0000"  # Red theme
+backgroundColor = "#0E1117"  # Slightly darker background for better contrast
+secondaryBackgroundColor = "#1E2127"  # Sidebar background
+textColor = "#FFFFFF"  # White text for readability
+font = "sans serif"  # Default font
